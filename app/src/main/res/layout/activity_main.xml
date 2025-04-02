@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText: 用于用户输入文本 -->
+    <TextView
+        android:id="@+id/md5Ttv"
+        android:text="MD5算法"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:padding="8dp"/>
+    <EditText
+        android:id="@+id/md5et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入文本"
+        android:textSize="19sp"
+        android:padding="8dp"/>
+
+    <!-- Button：点击计算 MD5 -->
+    <Button
+        android:id="@+id/md5bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算 MD5"
+        android:layout_marginTop="16dp"/>
+
+    <!-- TextView：显示 MD5 结果 -->
+    <TextView
+        android:id="@+id/md5rtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MD5 结果将在这里显示"
+        android:textSize="19sp"
+        android:textIsSelectable="true"
+        android:paddingTop="16dp"/>
+
+    <!-- SHA1 -->
+    <TextView
+        android:id="@+id/sha1tv"
+        android:text="SHA1算法"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:padding="8dp"/>
+    <EditText
+        android:id="@+id/sha1et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入文本"
+        android:textSize="19sp"
+        android:padding="8dp"/>
+
+    <!-- Button：点击计算 MD5 -->
+    <Button
+        android:id="@+id/sha1bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算 SHA1"
+        android:layout_marginTop="16dp"/>
+
+    <!-- TextView：显示 MD5 结果 -->
+    <TextView
+        android:id="@+id/sha1rt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHA1 结果将在这里显示"
+        android:textSize="19sp"
+        android:textIsSelectable="true"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/Magic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="魔改MD5"
+        android:textSize="19sp"
+        android:textIsSelectable="true"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/Magicmd5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="md5"
+        android:textSize="19sp"
+        android:textIsSelectable="true"
+        android:paddingTop="16dp"/>
+
+</LinearLayout>
